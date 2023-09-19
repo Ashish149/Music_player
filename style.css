@@ -1,0 +1,96 @@
+body{
+    background-color: antiquewhite;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    min-height: 60vh;
+    background-color: black;
+    color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+     display: flex; 
+    
+    margin: 23px auto;
+    width: 75%;
+    height: 50%;
+    border-radius: 20px;
+    padding: 20px;
+    background-image: url(https://img.freepik.com/premium-photo/colorful-music-notes-background-with-sheet-music-disc-treble-clef-illustration-ai-generative_118124-13527.jpg?w=2000);
+}
+
+nav{
+    font-family: 'Courier New', Courier, monospace;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    height: 60px;
+    background-color: black;
+color: bisque;
+}
+nav ul li{
+    padding: 0 12px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+.brand img{
+    padding: 0 18px;
+}
+.bottom{
+    position: sticky;
+    height: 80px;
+    background-color: black;
+    bottom: 0;
+    color: rgb(9, 124, 225);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+} 
+.icons{
+margin-top: 10px;
+}
+.icons i{
+    cursor: pointer;
+}
+#myprogressbar{
+    width: 50vw;
+    cursor: pointer;
+}
+.songItem{
+    height:30px;
+    display: flex;
+    background-color: antiquewhite;
+    color: black;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 23px;
+}
+.songItem img{
+    width: 30px;
+    margin:0 23px ;
+    border-radius: 22px;
+}
+.timestamp i{
+    cursor: pointer;
+}
+.songitemcontainer{
+    margin-top: 7px;
+}
+.songinfo{
+   
+    position: absolute;
+   left: 19vw;
+    font-family: 'Courier New', Courier, monospace;
+}
+.songimg{
+    opacity: 0;
+    transition: opacity 1s ease-in;
+}
